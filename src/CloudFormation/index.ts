@@ -9,7 +9,7 @@ export enum TaskResult {
 export interface Message {
   Status: TaskResult
   ResponseURL: string
-  PhysicalResourceId: string
+  PhysicalResourceId?: string
   StackId: string
   RequestId: string
   LogicalResourceId: string
