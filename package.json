@@ -1,0 +1,26 @@
+{
+  "name": "aws-lambda-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.js",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polovi/aws-lambda-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polovi/aws-lambda-utils/issues"
+  },
+  "homepage": "https://github.com/polovi/aws-lambda-utils#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "typescript": "^3.1.6"
+  }
+}
