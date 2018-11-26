@@ -1,5 +1,5 @@
 export declare enum Status {
-    Succes = "Success",
+    Succes = "SUCCESS",
     Failed = "FAILED"
 }
 export declare const fromEvent: (event: {
