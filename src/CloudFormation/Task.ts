@@ -2,7 +2,7 @@ import { request as makeRequest } from 'https'
 import { parse as parseUrl } from 'url'
 
 export enum Status {
-  Succes = 'Success',
+  Succes = 'SUCCESS',
   Failed = 'FAILED',
 }
 
